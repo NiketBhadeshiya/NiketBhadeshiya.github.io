@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nik - Developer</title>
+    <link rel="shortcut icon" href="https://niketbhadeshiya.github.io/1202/images/logo/1logo.jpg" type="image/x-icon" style="border-radius:3px ;">
+    <link rel="stylesheet" href="https://niketbhadeshiya.github.io/1202/style.css">
+    <script src="https://github.com/NiketBhadeshiya/1202/images/example.js"></script>
+
+    <script src="https://kit.fontawesome.com/94522afa2a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><a href="index.html">Thisis<span>N</span>ik</a></p>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer", "Software Developer" ]')></a>
+                <h1>Hello There, <br> I am <span>Niket Bhadeshiya</span></h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://niketbhadeshiya.github.io/1202/images/me.jpg" alt="Niket Bhadeshiya">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle aboutSub">About Me <br></h1>
+                    <p>I am currently in pre-Final year of Computer Engineering at V.V.P. Engineering College. I am very enthusiast to learn latest technology to keep updated myself. I am highly interested in Web Development and Software Development.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>DATA STRUCTURE<br></li>
+                            <li>DATABASE MANAGEMENT SYSTEM<br></li>
+                            <!-- <li><span>OPERATING SYSTEM</span><br></li> -->
+                            <li>OBJECT ORIENTED PROGRAMMING<br></li>
+                            <li>C LANGUAGE<br></li>
+                            <li>JAVA<br></li>
+                            <li>HTML<br></li>
+                            <li>CSS<br></li>
+                            <li>JAVASCRIPT</span><br></li>
+                            <li>NODEJS<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing web app interface</li>
+                            <li><span>UI?UX</span><br>Designing web app interface</li>
+                            <li><span>UI?UX</span><br>Designing web app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Computer Engineering Sem - 4</span><br>CPI : & SPI : </li>
+                            <li><span>Computer Engineering Sem - 3</span><br>CPI : & SPI : </li>
+                            <li><span>Computer Engineering Sem - 2</span><br>CPI : & SPI : </li>
+                            <li><span>Computer Engineering Sem - 1</span><br>CPI : & SPI : </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services <br></h1>
+            <div class="services-list">
+                <div class="webDevelop">
+                    <i class="fa-thin fa-laptop-code fas"></i>
+                    <h2>Web Development</h2>
+                    <p>I can develop websites and web applications with some basic level of programming.</p>
+                    <a href="#contact">Learn more..</a>
+                </div>
+                <div class="softwareDevelop">
+                    <i class="fa-solid fa-briefcase fas"></i>
+                    <h2>Software Development</h2>
+                    <p>As I am a fresher, I can also develop basic level software application.</p>
+                    <a href="#contact">Learn more..</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-nib fas"></i>
+                    <h2>Web Design</h2>
+                    <p>I can also design the web pages very efficiently.</p>
+                    <a href="#contact">Learn more..</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-nib fas"></i>
+                    <h2>Backend Development</h2>
+                    <p>As beginner I can develop a backend for website</p>
+                    <a href="#contact">Learn more..</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------- Contact -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="contactSubtitle">Get in Touch <br></h1>
+            <p class="contactP">You can contact me by any of following :</p>
+            <div class="contact-box">
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:bniket.7@gmail.com">Mail it..</a>
+            </div>
+            <div class="contactfromMedia">
+                <a href="https://www.linkedin.com/in/niket-bhadeshiya-630132209" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/heyyy._.nik/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
