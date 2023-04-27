@@ -30,7 +30,7 @@ body {
 #header {
     width: 100%;
     height:100vh;
-    background: url("https://niketbhadeshiya.github.io/1202/images/lap32.jpg") center/cover no-repeat ;
+    background: url("/images/lap32.jpg") center/cover no-repeat ;
 }
 
 .container {
@@ -49,6 +49,10 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 22px;
+}
+
+.logo span{
+    font-size: 40px;
 }
 
 nav ul li{
@@ -255,7 +259,7 @@ nav ul li a:hover::after {
     to {background-color: whitesmoke;height: 240px;}
 } */
 
-/* ------------------- Contact  */
+/* ------------------- Contact ----------------  */
 #contact{
     background-color: #ff004f;
     padding: 30px 0;
@@ -310,6 +314,49 @@ nav ul li a:hover::after {
 .contactfromMedia i:hover{
     color: white;
 }
+
+
+/* ----------------- Project --------------- */
+
+#project {
+    padding: 30px 0;
+}
+
+
+div.project-list {
+    margin: 40px 0;
+}
+
+.project-list .projects {
+    padding: 30px 0;
+}
+
+.project-list .bigLetter {
+    font-size: 35px;
+    color: #b54769;
+}
+
+.project-list .projects .project-title {
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+
+.project-list .projects .project-title a{
+    color: #ababab;
+    text-decoration: none;
+    /* background-color: azure; */
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 5px;
+}
+
+.project-list .projects .project-detail {
+    margin-left: 45px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ababab;
+}
+
+
 
 
 /* ----------- css for small screen */
@@ -414,6 +461,10 @@ nav .fas {
     .contactfromMedia i{
         font-size: 28px;
         margin-right: 10px;
+    }
+
+    .project-list .projects .project-title{
+        font-size: 14px;
     }
 
 }
